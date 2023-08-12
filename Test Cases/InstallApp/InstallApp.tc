@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InstallApp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a1a3b99-41b1-4a9d-9001-2746eaacac60</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('InstallAppPage/input_store_domain')</defaultValue>
+      <description></description>
+      <id>f79f0b60-8365-4a69-b407-f61908786181</id>
+      <masked>false</masked>
+      <name>input_store_domain</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('InstallAppPage/btn_app_login')</defaultValue>
+      <description></description>
+      <id>6cdb7aef-79b8-45a4-948d-2285736ba4d4</id>
+      <masked>false</masked>
+      <name>btn_app_login</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('InstallAppPage/btn_install_app')</defaultValue>
+      <description></description>
+      <id>6c281fe9-0968-48f0-9746-eac1f471577f</id>
+      <masked>false</masked>
+      <name>btn_install_app</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('LoginShopifyPage/a_account1')</defaultValue>
+      <description></description>
+      <id>c2c04c2d-9542-407b-8edc-a3ce481d141a</id>
+      <masked>false</masked>
+      <name>a_account1</name>
+   </variable>
+</TestCaseEntity>
