@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AutomationTestingDay2,Chrome 115.0.0.0,,,2023-08-12 17:56:50,2023-08-12 17:58:10,1m - 20.454s,PASSED
+,,,,,,,
+Test Cases/LoginShopify/LoginShopify,Chrome 115.0.0.0,,,2023-08-12 17:56:50,2023-08-12 17:57:12,21.652s,PASSED
+"email = ""khangluong1511@gmail.com""",Chrome 115.0.0.0,,,2023-08-12 17:56:51,2023-08-12 17:56:51,0.002s,PASSED
+"password = ""hlSDJfVt3+CVLMgWpbMKOQ==""",Chrome 115.0.0.0,,,2023-08-12 17:56:51,2023-08-12 17:56:51,0.001s,PASSED
+openBrowser(partner_host),Chrome 115.0.0.0,,,2023-08-12 17:56:51,2023-08-12 17:56:58,6.605s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-12 17:56:58,2023-08-12 17:56:58,0.406s,PASSED
+"sendKeys(input_email, email)",Chrome 115.0.0.0,,,2023-08-12 17:56:58,2023-08-12 17:56:59,0.592s,PASSED
+click(btn_login),Chrome 115.0.0.0,,,2023-08-12 17:56:59,2023-08-12 17:57:01,2.601s,PASSED
+"setEncryptedText(input_password, password)",Chrome 115.0.0.0,,,2023-08-12 17:57:01,2023-08-12 17:57:03,1.878s,PASSED
+click(btn_login),Chrome 115.0.0.0,,,2023-08-12 17:57:03,2023-08-12 17:57:09,5.561s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-12 17:57:09,2023-08-12 17:57:12,3.041s,PASSED
+,,,,,,,
+Test Cases/PartnerPage/CreateStoreTest,Chrome 115.0.0.0,,,2023-08-12 17:57:12,2023-08-12 17:58:10,58.468s,PASSED
+rand = new java.util.Random(),Chrome 115.0.0.0,,,2023-08-12 17:57:13,2023-08-12 17:57:13,0.009s,PASSED
+"store_name = ""storekohetest""",Chrome 115.0.0.0,,,2023-08-12 17:57:13,2023-08-12 17:57:13,0.001s,PASSED
+"callTestCase(findTestCase(""LoginShopify/LoginShopify""), [""input_email"":findTestObject(""LoginShopifyPage/input_email""), ""input_password"":findTestObject(""LoginShopifyPage/input_password""), ... ], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-12 17:57:13,2023-08-12 17:57:31,18.544s,PASSED
+is_error = true,Chrome 115.0.0.0,,,2023-08-12 17:57:31,2023-08-12 17:57:31,0.000s,PASSED
+while (is_error),Chrome 115.0.0.0,,,2023-08-12 17:57:31,2023-08-12 17:57:31,0.002s,PASSED
+"return com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(input_store_name, (store_name + rand.nextInt(1000)))",Chrome 115.0.0.0,,,2023-08-12 17:57:31,2023-08-12 17:58:10,38.963s,PASSED

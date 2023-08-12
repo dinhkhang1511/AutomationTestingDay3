@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AutomationTestingDay2,Chrome 115.0.0.0,,,2023-08-08 23:46:42,2023-08-08 23:48:46,2m - 4.728s,PASSED
+,,,,,,,
+Test Cases/LoginShopify/LoginShopify,Chrome 115.0.0.0,,,2023-08-08 23:46:42,2023-08-08 23:47:04,21.826s,PASSED
+"email = ""khangluong1511@gmail.com""",Chrome 115.0.0.0,,,2023-08-08 23:46:43,2023-08-08 23:46:43,0.002s,PASSED
+"password = ""hlSDJfVt3+CVLMgWpbMKOQ==""",Chrome 115.0.0.0,,,2023-08-08 23:46:43,2023-08-08 23:46:43,0.001s,PASSED
+openBrowser(partner_host),Chrome 115.0.0.0,,,2023-08-08 23:46:43,2023-08-08 23:46:50,7.087s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-08 23:46:50,2023-08-08 23:46:50,0.317s,PASSED
+"sendKeys(input_email, email)",Chrome 115.0.0.0,,,2023-08-08 23:46:50,2023-08-08 23:46:51,0.443s,PASSED
+click(btn_login),Chrome 115.0.0.0,,,2023-08-08 23:46:51,2023-08-08 23:46:53,2.714s,PASSED
+"setEncryptedText(input_password, password)",Chrome 115.0.0.0,,,2023-08-08 23:46:53,2023-08-08 23:46:55,1.992s,PASSED
+click(btn_login),Chrome 115.0.0.0,,,2023-08-08 23:46:55,2023-08-08 23:47:01,5.229s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-08 23:47:01,2023-08-08 23:47:04,3.060s,PASSED
+,,,,,,,
+Test Cases/PartnerPage/CreateStoreTest,Chrome 115.0.0.0,,,2023-08-08 23:47:04,2023-08-08 23:47:59,54.873s,PASSED
+rand = new java.util.Random(),Chrome 115.0.0.0,,,2023-08-08 23:47:05,2023-08-08 23:47:05,0.008s,PASSED
+"store_name = ""storekohetest""",Chrome 115.0.0.0,,,2023-08-08 23:47:05,2023-08-08 23:47:05,0.000s,PASSED
+"callTestCase(findTestCase(""LoginShopify/LoginShopify""), [""input_email"":findTestObject(""LoginShopifyPage/input_email""), ""input_password"":findTestObject(""LoginShopifyPage/input_password""), ... ], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-08 23:47:05,2023-08-08 23:47:25,19.829s,PASSED
+is_error = true,Chrome 115.0.0.0,,,2023-08-08 23:47:25,2023-08-08 23:47:25,0.000s,PASSED
+while (is_error),Chrome 115.0.0.0,,,2023-08-08 23:47:25,2023-08-08 23:47:25,0.003s,PASSED
+"return com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(input_store_name, (store_name + rand.nextInt(1000)))",Chrome 115.0.0.0,,,2023-08-08 23:47:25,2023-08-08 23:47:59,33.908s,PASSED
+,,,,,,,
+Test Cases/InstallApp/InstallApp,Chrome 115.0.0.0,,,2023-08-08 23:47:59,2023-08-08 23:48:46,47.597s,PASSED
+"shopify_name = ""nocustomer""",Chrome 115.0.0.0,,,2023-08-08 23:48:00,2023-08-08 23:48:00,0.001s,PASSED
+openBrowser(install_app_host),Chrome 115.0.0.0,,,2023-08-08 23:48:00,2023-08-08 23:48:05,4.778s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-08 23:48:05,2023-08-08 23:48:05,0.171s,PASSED
+"sendKeys(input_store_domain, shopify_name)",Chrome 115.0.0.0,,,2023-08-08 23:48:05,2023-08-08 23:48:06,0.995s,PASSED
+click(btn_app_login),Chrome 115.0.0.0,,,2023-08-08 23:48:06,2023-08-08 23:48:10,3.947s,PASSED
+"callTestCase(findTestCase(""LoginShopify/InputEmailPassword""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-08 23:48:10,2023-08-08 23:48:22,12.516s,PASSED
+click(btn_install_app),Chrome 115.0.0.0,,,2023-08-08 23:48:22,2023-08-08 23:48:24,2.045s,PASSED
+click(a_account1),Chrome 115.0.0.0,,,2023-08-08 23:48:24,2023-08-08 23:48:36,12.016s,PASSED
+delay(10),Chrome 115.0.0.0,,,2023-08-08 23:48:36,2023-08-08 23:48:46,10.013s,PASSED
