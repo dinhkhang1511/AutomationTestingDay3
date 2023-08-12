@@ -12,37 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>f6670a56-d2b8-4ab2-8c9b-02c38ac1d3ec</testSuiteGuid>
    <testCaseLink>
-      <guid>b1b146b5-3ed1-44db-ac9f-8e1c0e2698fc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/LoginShopify/LoginShopify</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>59ff9bcf-246e-4b22-85c4-dc0cbaa55320</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>03b85d4c-e10c-4fc9-89c1-14807615a367</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>50d86fe3-5f36-4e3b-b34c-8868cfcada66</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d4e0a9cc-0977-4801-bca8-49232070592b</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>893fd2c2-3559-4621-8329-0233597ab0fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
